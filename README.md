@@ -10,8 +10,8 @@ npm install id-png
 ```javascript
 const idPNG = require("id-png");
 
-idPNG(buffer);
-idPNG(arrayBuffer);
-idPNG(dataView);
-idPNG(uint8Array);
+idPNG(buffer); // true
+idPNG(arrayBuffer); // true
+idPNG(dataView); // true
+idPNG(uint8Array); // true
 ```
